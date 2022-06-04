@@ -16,13 +16,13 @@ body {
 }
 
 a {
-  color: #1dc8cd;
+  color: #ABCDEF;
   text-decoration: none;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #1dc9ce;
+  color: #ABCDEF;
   outline: none;
   text-decoration: none;
 }
@@ -80,13 +80,13 @@ h1, h2, h3, h4, h5, h6 {
   height: 90px;
   transition: all 0.5s;
   z-index: 997;
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #ABCDEF, #ABCDEF);
 }
 #header.header-transparent {
   background: transparent;
 }
 #header.header-scrolled {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #ABCDEF, #ABCDEF);
   height: 70px;
   transition: all 0.5s;
 }
@@ -313,7 +313,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #1dc8cd;
+  color: #ABCDEF;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -464,7 +464,7 @@ section {
   display: block;
   width: 60px;
   height: 3px;
-  background: #1dc8cd;
+  background: #ABCDEF;
   background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
   margin: 0 auto;
   margin-bottom: 20px;
